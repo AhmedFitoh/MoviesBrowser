@@ -20,13 +20,6 @@
 			remoteGlobalIDString = 9CF68DE72A595B3D007EACAB;
 			remoteInfo = MovieBrowser;
 		};
-		9CF68E092A595B40007EACAB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9CF68DE02A595B3D007EACAB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9CF68DE72A595B3D007EACAB;
-			remoteInfo = MovieBrowser;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +29,6 @@
 		9CF68DF72A595B40007EACAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF68DF92A595B40007EACAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CF68DFE2A595B40007EACAB /* MovieBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CF68E082A595B40007EACAB /* MovieBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,13 +40,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9CF68DFB2A595B40007EACAB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CF68E052A595B40007EACAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,7 +87,6 @@
 			children = (
 				9CF68DE82A595B3D007EACAB /* MovieBrowser.app */,
 				9CF68DFE2A595B40007EACAB /* MovieBrowserTests.xctest */,
-				9CF68E082A595B40007EACAB /* MovieBrowserUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,24 +147,6 @@
 			productReference = 9CF68DFE2A595B40007EACAB /* MovieBrowserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9CF68E072A595B40007EACAB /* MovieBrowserUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9CF68E182A595B40007EACAB /* Build configuration list for PBXNativeTarget "MovieBrowserUITests" */;
-			buildPhases = (
-				9CF68E042A595B40007EACAB /* Sources */,
-				9CF68E052A595B40007EACAB /* Frameworks */,
-				9CF68E062A595B40007EACAB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9CF68E0A2A595B40007EACAB /* PBXTargetDependency */,
-			);
-			name = MovieBrowserUITests;
-			productName = MovieBrowserUITests;
-			productReference = 9CF68E082A595B40007EACAB /* MovieBrowserUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,10 +161,6 @@
 						CreatedOnToolsVersion = 14.0;
 					};
 					9CF68DFD2A595B40007EACAB = {
-						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 9CF68DE72A595B3D007EACAB;
-					};
-					9CF68E072A595B40007EACAB = {
 						CreatedOnToolsVersion = 14.0;
 						TestTargetID = 9CF68DE72A595B3D007EACAB;
 					};
@@ -219,7 +181,6 @@
 			targets = (
 				9CF68DE72A595B3D007EACAB /* MovieBrowser */,
 				9CF68DFD2A595B40007EACAB /* MovieBrowserTests */,
-				9CF68E072A595B40007EACAB /* MovieBrowserUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,13 +196,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9CF68DFC2A595B40007EACAB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9CF68E062A595B40007EACAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,13 +220,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CF68E042A595B40007EACAB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -280,11 +227,6 @@
 			isa = PBXTargetDependency;
 			target = 9CF68DE72A595B3D007EACAB /* MovieBrowser */;
 			targetProxy = 9CF68DFF2A595B40007EACAB /* PBXContainerItemProxy */;
-		};
-		9CF68E0A2A595B40007EACAB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9CF68DE72A595B3D007EACAB /* MovieBrowser */;
-			targetProxy = 9CF68E092A595B40007EACAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -425,9 +367,8 @@
 				INFOPLIST_FILE = MovieBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +393,8 @@
 				INFOPLIST_FILE = MovieBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,40 +446,6 @@
 			};
 			name = Release;
 		};
-		9CF68E192A595B40007EACAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AhmedFitoh.MovieBrowserUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MovieBrowser;
-			};
-			name = Debug;
-		};
-		9CF68E1A2A595B40007EACAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AhmedFitoh.MovieBrowserUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MovieBrowser;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -566,15 +472,6 @@
 			buildConfigurations = (
 				9CF68E162A595B40007EACAB /* Debug */,
 				9CF68E172A595B40007EACAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9CF68E182A595B40007EACAB /* Build configuration list for PBXNativeTarget "MovieBrowserUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9CF68E192A595B40007EACAB /* Debug */,
-				9CF68E1A2A595B40007EACAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
