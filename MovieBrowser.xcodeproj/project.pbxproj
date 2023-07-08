@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0BCD802A595F6C00F3ED78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0BCD7F2A595E3F00F3ED78 /* LaunchScreen.storyboard */; };
 		9CF68DEC2A595B3D007EACAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68DEB2A595B3D007EACAB /* AppDelegate.swift */; };
 		9CF68DF52A595B40007EACAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF68DF42A595B40007EACAB /* Assets.xcassets */; };
-		9CF68DF82A595B40007EACAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF68DF62A595B40007EACAB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,10 +23,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C0BCD7F2A595E3F00F3ED78 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF68DE82A595B3D007EACAB /* MovieBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF68DEB2A595B3D007EACAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF68DF42A595B40007EACAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9CF68DF72A595B40007EACAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CF68DF92A595B40007EACAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CF68DFE2A595B40007EACAB /* MovieBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,7 +68,7 @@
 		9C0BCD7E2A595D3E00F3ED78 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				9CF68DF62A595B40007EACAB /* LaunchScreen.storyboard */,
+				9C0BCD7F2A595E3F00F3ED78 /* LaunchScreen.storyboard */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -190,8 +190,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CF68DF82A595B40007EACAB /* LaunchScreen.storyboard in Resources */,
 				9CF68DF52A595B40007EACAB /* Assets.xcassets in Resources */,
+				9C0BCD802A595F6C00F3ED78 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,17 +229,6 @@
 			targetProxy = 9CF68DFF2A595B40007EACAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9CF68DF62A595B40007EACAB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CF68DF72A595B40007EACAB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9CF68E102A595B40007EACAB /* Debug */ = {
