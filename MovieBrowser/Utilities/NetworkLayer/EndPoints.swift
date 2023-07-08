@@ -1,6 +1,6 @@
 //
 //  EndPoints.swift
-//  MoviesApp
+//  MovieBrowser
 //
 //  Created by AhmedFitoh on 7/8/23.
 //
@@ -8,7 +8,8 @@
 import Foundation
 
 struct BaseUrls{
-    fileprivate static let defaultURL = "https://api.themoviedb.org/3/"
+    static let defaultURL = "https://api.themoviedb.org/3/"
+    static let imageURL = "https://image.tmdb.org/"
 }
 
 

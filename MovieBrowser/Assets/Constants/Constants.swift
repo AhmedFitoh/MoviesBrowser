@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  MoviesApp
+//  MovieBrowser
 //
 //  Created by AhmedFitoh on 7/8/23.
 //

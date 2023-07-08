@@ -11,6 +11,9 @@
 		9C0BCD852A59600800F3ED78 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BCD832A59600800F3ED78 /* EndPoints.swift */; };
 		9C0BCD862A59600800F3ED78 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BCD842A59600800F3ED78 /* WebService.swift */; };
 		9C0BCD892A59605C00F3ED78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BCD882A59605700F3ED78 /* Constants.swift */; };
+		9C0BCD8E2A597CDD00F3ED78 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BCD8B2A597CDC00F3ED78 /* ImageLoader.swift */; };
+		9C0BCD8F2A597CDD00F3ED78 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BCD8C2A597CDC00F3ED78 /* ImageCacheManager.swift */; };
+		9C0BCD902A597CDD00F3ED78 /* ImageUrlBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0BCD8D2A597CDC00F3ED78 /* ImageUrlBuilder.swift */; };
 		9CF68DEC2A595B3D007EACAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68DEB2A595B3D007EACAB /* AppDelegate.swift */; };
 		9CF68DF52A595B40007EACAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF68DF42A595B40007EACAB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -30,6 +33,9 @@
 		9C0BCD832A59600800F3ED78 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		9C0BCD842A59600800F3ED78 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		9C0BCD882A59605700F3ED78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C0BCD8B2A597CDC00F3ED78 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		9C0BCD8C2A597CDC00F3ED78 /* ImageCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		9C0BCD8D2A597CDC00F3ED78 /* ImageUrlBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageUrlBuilder.swift; sourceTree = "<group>"; };
 		9CF68DE82A595B3D007EACAB /* MovieBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF68DEB2A595B3D007EACAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CF68DF42A595B40007EACAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +89,7 @@
 		9C0BCD812A595FD900F3ED78 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				9C0BCD8A2A597CDC00F3ED78 /* ImageLoader */,
 				9C0BCD822A59600800F3ED78 /* NetworkLayer */,
 			);
 			path = Utilities;
@@ -103,6 +110,16 @@
 				9C0BCD882A59605700F3ED78 /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		9C0BCD8A2A597CDC00F3ED78 /* ImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				9C0BCD8B2A597CDC00F3ED78 /* ImageLoader.swift */,
+				9C0BCD8C2A597CDC00F3ED78 /* ImageCacheManager.swift */,
+				9C0BCD8D2A597CDC00F3ED78 /* ImageUrlBuilder.swift */,
+			);
+			path = ImageLoader;
 			sourceTree = "<group>";
 		};
 		9CF68DDF2A595B3D007EACAB = {
@@ -244,8 +261,11 @@
 			files = (
 				9C0BCD862A59600800F3ED78 /* WebService.swift in Sources */,
 				9C0BCD852A59600800F3ED78 /* EndPoints.swift in Sources */,
+				9C0BCD8F2A597CDD00F3ED78 /* ImageCacheManager.swift in Sources */,
+				9C0BCD8E2A597CDD00F3ED78 /* ImageLoader.swift in Sources */,
 				9CF68DEC2A595B3D007EACAB /* AppDelegate.swift in Sources */,
 				9C0BCD892A59605C00F3ED78 /* Constants.swift in Sources */,
+				9C0BCD902A597CDD00F3ED78 /* ImageUrlBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
