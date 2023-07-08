@@ -64,6 +64,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C0BCD7C2A595D0800F3ED78 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9CF68DF42A595B40007EACAB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9C0BCD7D2A595D2E00F3ED78 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9C0BCD7E2A595D3E00F3ED78 /* Splash */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9C0BCD7E2A595D3E00F3ED78 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				9CF68DF62A595B40007EACAB /* LaunchScreen.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		9CF68DDF2A595B3D007EACAB = {
 			isa = PBXGroup;
 			children = (
@@ -86,9 +110,9 @@
 		9CF68DEA2A595B3D007EACAB /* MovieBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				9C0BCD7D2A595D2E00F3ED78 /* Scenes */,
+				9C0BCD7C2A595D0800F3ED78 /* Assets */,
 				9CF68DEB2A595B3D007EACAB /* AppDelegate.swift */,
-				9CF68DF42A595B40007EACAB /* Assets.xcassets */,
-				9CF68DF62A595B40007EACAB /* LaunchScreen.storyboard */,
 				9CF68DF92A595B40007EACAB /* Info.plist */,
 			);
 			path = MovieBrowser;
