@@ -35,6 +35,8 @@ class MoviesListWireframe {
 extension MoviesListWireframe: MoviesListPresenterToWireframeProtocol {
     
     func openMovieDetails(movie: MovieModel){
-
+        if let movieDetailsViewController = MovieDetailsWireframe(movie: movie).viewController {
+            viewController?.navigationController?.pushViewController(movieDetailsViewController, animated: true)
+        }
     }
 }
