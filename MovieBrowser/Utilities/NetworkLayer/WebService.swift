@@ -16,7 +16,7 @@ protocol NetworkingProtocol: AnyObject {
                        completion: @escaping (Data?) -> ())
 }
 
-final class WebService: NetworkingProtocol {
+class WebService: NetworkingProtocol {
 
     // TODO:- add support to http body when needed
     func request(_ api: EndPoints,
